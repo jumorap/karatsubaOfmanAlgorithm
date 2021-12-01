@@ -17,7 +17,7 @@ public class KO {
 
         // If is a simple multiplication with at least 1 number of length 1, will return the result immediately
         if (nx == 1 || ny == 1) {
-            return (long) Integer.parseInt(x) * Integer.parseInt(y);
+            return Long.parseLong(x) * Long.parseLong(y);
         }
 
         // Is added 0s to the left of the numbers to make them the same length x and y
